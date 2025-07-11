@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trike Treats</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script></head>
+<body>
+  <header>
+    <h1>Triike Treats 🌭</h1>
+    <nav>
+      <a href="#snacks">Snacks</a>
+      <a href="#about">About Us</a>
+      <a href="#why-us">Why Choose Us</a>
+      <a href="#quiz">Snack Quiz</a>
+      <a href="#battle">Snack Battle</a>
+      <a href="#wheel">Spin & Win</a>
+      <a href="#order-tracker">Live Orders</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Delicious Corndogs, Made Fresh Daily!</h2>
+    <p>Order Now And Treat Yourself To The Best Corndogs In Town</p>
+    <a href="https://wa.me/2347056049010" target="_blank" class="cta-button">Order on WhatsApp</a>
+  </section>
+
+  <section id="snacks">
+    <h2>Our Delicious Corndogs</h2>
+    <div class="snack-grid">
+      <div class="snack-card">
+        <img src="https://i.postimg.cc/crzk3bNq/13fdda1a-6e26-4fcd-9c0f-6e9d77435d31.jpg" alt="Spicy CornDog" loading="lazy">
+        <p>Spicy CornDog</p>
+      </div>
+      <div class="snack-card">
+        <img src="https://i.postimg.cc/zbNcBHYV/6585a709-97f9-4ffd-a64e-d0ebe9519f54.jpg" alt="Cheesy CornDog" loading="lazy">
+        <p>Cheesy CornDog</p>
+      </div>
+      <div class="snack-card">
+        <img src="https://i.postimg.cc/N5FP5wS7/ede36e21-436b-4450-aa35-42a4efc60226.jpg" alt="Mini Bites" loading="lazy">
+        <p>Mini Bites</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Trike Treats is your go-to spot for premium corndogs! We’re a snack company passionate about delivering the freshest, crispiest, and most flavorful corndogs across Nigeria. Whether you love cheesy, spicy, or classic flavors, we’ve got something delicious for you.</p>
+  </section>
+
+  <section id="why-us">
+    <h2>Why Choose Us?</h2>
+    <ul class="reasons">
+      <li>Made Fresh Daily</li>
+      <li>High Quality Ingredients</li>
+      <li>Fast Delivery</li>
+      <li>Amazing Support</li>
+    </ul>
+  </section>
+
+  <section id="social-wall">
+    <h3>Snack Moments 📸</h3>
+    <div class="grid-instagram">
+      <img src="https://i.postimg.cc/NLpzs0Jj/aa91332b-df5b-4a7d-b827-92899b7a2533.jpg" alt="Enjoying Chessy Corndogs" loading="lazy">
+      <img src="https://i.postimg.cc/Yq9n5gmn/ebda5bf9-757a-4a95-8baa-df3fbad07245.jpg" alt="Delicious corndog snack with sauce" loading="lazy">
+      <img src="https://i.postimg.cc/21Bc77z1/fc3e2f91-ab88-4742-933a-5413d007bd76.jpg" alt="Great Reviews" loading="lazy">
+    </div>
+  </section>
+
+  <section id="quiz">
+    <h2>Snack Personality Quiz</h2>
+    <p>Which Corndog Are You?</p>
+    <form id="quizForm">
+      <label>1. What's your vibe?<br>
+        <input type="radio" name="q1" value="spicy"> Bold and spicy<br>
+        <input type="radio" name="q1" value="cheesy"> Cheesy and charming<br>
+        <input type="radio" name="q1" value="classic"> Simple and sweet
+      </label><br><br>
+      <button type="submit">Find Out!</button>
+    </form>
+    <p id="quizResult"></p>
+  </section>
+
+  <section id="battle">
+  <h2>🥊 Snack Battle Poll</h2>
+  <p>Which one wins your heart?</p>
+  <form id="battleForm">
+    <label><input type="radio" name="battle" value="Spicy"> Spicy CornDog</label><br>
+    <label><input type="radio" name="battle" value="Cheesy"> Cheesy CornDog</label><br>
+    <label><input type="radio" name="battle" value="Classic"> Classic CornDog</label><br><br>
+    <button type="submit">Vote!</button>
+  </form>
+  <p id="battleResult"></p>
+</section>
+
+<section id="wheel">
+    <h2>🎁 Spin the Wheel & Win 10% Off!</h2>
+    <div class="wheel-container">
+      <div id="wheel" class="wheel"></div>
+      <button id="spinBtn">SPIN</button>
+      <p id="wheelResult"></p>
+    </div>
+  </section>
+
+  <section id="order-tracker">
+    <h3>Live Orders 🛵</h3>
+    <div class="order-feed" id="orderFeed"></div>
+  </section>
+
+  <section id="contact">
+    <h3>Get In Touch</h3>
+    <p><i class="fab fa-whatsapp"></i> WhatsApp: <a href="https://wa.me/2347056049010" target="_blank">Chat Now</a></p>
+    <p><i class="fab fa-instagram"></i> Instagram: <a href="https://www.instagram.com/triiketreats__/" target="_blank">@triiketreats__</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Trike Treats. All rights reserved.</p>
+  </footer>
+
+  
+   
+
